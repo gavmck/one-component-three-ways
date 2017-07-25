@@ -1,0 +1,23 @@
+.card {
+  border: 1px solid rgba(0, 0, 0, .1);
+  box-shadow: 0 0 .5em 0 rgba(0, 0, 0, .1);
+  color: #333;
+  display: inline-block;
+  margin: 1em;
+  padding: 1em;
+}
+
+.card__image {
+  display: block;
+  height: auto;
+  margin-bottom: 1em;
+  max-width: 100%;
+}
+
+.card__title {
+  margin: 0;
+}
+
+.card__description {
+  margin: 0;
+}

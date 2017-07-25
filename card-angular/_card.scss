@@ -1,0 +1,25 @@
+$color-darken: rgba(0, 0, 0, .1);
+$color-grey-dark: #333;
+$spacing: 1em;
+
+.card {
+  border: 1px solid $color-darken;
+  box-shadow: 0 0 .5em 0 $color-darken;
+  color: $color-grey-dark;
+  display: inline-block;
+  margin: $spacing;
+  padding: $spacing;
+
+  &__image {
+    display: block;
+    height: auto;
+    margin-bottom: $spacing;
+    max-width: 100%;
+  }
+
+  &__title,
+  &__description {
+    margin: 0;
+  }
+}
+

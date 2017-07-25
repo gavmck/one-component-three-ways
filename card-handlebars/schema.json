@@ -1,0 +1,19 @@
+{
+  "title": "card",
+  "type": "object",
+  "properties": {
+    "image": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "title": {
+      "type": "HTML"
+    },
+    "description": {
+      "type": "HTML"
+    },
+  },
+  "required": ["title", "image", "alt", "description"]
+}
